@@ -55,7 +55,8 @@ a {
 .my-works h2,
 .testimonials h2,
 .gallery h2,
-.contact-me h2 {
+.contact-me h2,
+.my-goals h2 {
   background-color: #02343f;
   text-align: center;
   padding: 10px;
@@ -64,7 +65,8 @@ a {
 .interests ul,
 .my-works ol,
 .testimonials p,
-.gallery-images {
+.gallery-images,
+.my-goals li  {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -95,8 +97,9 @@ p {
   margin: auto;
 }
 
-.contact-container input,
-textarea {
+input,
+textarea,
+button {
   background-color: #39565a;
   color: #ffffff;
 }
@@ -134,6 +137,31 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.my-goals {
+  text-align: center;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  gap: 1rem;
+}
+
+.comment-form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.comment-form input,
+.comment-form button {
+  width: 100%;
 }
 
 @media (max-width: 250px) {
