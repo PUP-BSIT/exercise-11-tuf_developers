@@ -178,6 +178,11 @@ button {
 	padding: 1rem;
 }
 
+.comment-form button:disabled {
+	background-color: #02343f;
+	color: #a7a7a7;
+}
+
 .my-thoughts p {
 	padding: 1rem;
 }
