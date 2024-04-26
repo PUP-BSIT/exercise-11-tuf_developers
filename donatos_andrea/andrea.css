@@ -186,7 +186,8 @@ textarea {
 	color: #858585;
 }
 
-.submit-comment button:enabled {
+.submit-comment button:enabled,
+.submit-contact input:enabled {
 	cursor: pointer;
 }
 
