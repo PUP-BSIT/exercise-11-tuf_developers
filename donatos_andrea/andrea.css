@@ -127,19 +127,7 @@ textarea {
 	padding: 10px 20px;
 	border: none;
 	border-radius: 4px;
-	cursor: pointer;
 	margin-top: 10px;
-}
-
-input[type="submit"],
-button[type="submit"] {
-	background-color: #04aa6d;
-	border: none;
-	color: white;
-	padding: 16px 32px;
-	text-decoration: none;
-	margin: 2px 2px;
-	cursor: pointer;
 }
 
 .goals {
@@ -175,30 +163,30 @@ textarea {
 	box-sizing: border-box;
 }
 
-input[type="submit"] {
-	background-color: #04aa6d;
-	color: white;
-	padding: 16px 32px;
-	margin: 2px 2px;
-	cursor: pointer;
-}
-
 .submit-comment {
 	color: white;
 	border: none;
 	border-radius: 4px;
-	cursor: pointer;
 	text-align: center;
 }
 
-input[type="submit"],
-button[type="submit"] {
+.submit-comment button {
 	background-color: #04aa6d;
 	color: white;
+	border: none;
 	padding: 16px 32px;
 	margin: 2px 2px;
-	cursor: pointer;
 	border-radius: 2px;
+	text-decoration: none;
+}
+
+.submit-comment button:disabled {
+	background-color: #004217;
+	color: #858585;
+}
+
+.submit-comment button:enabled {
+	cursor: pointer;
 }
 
 .comment-container {
