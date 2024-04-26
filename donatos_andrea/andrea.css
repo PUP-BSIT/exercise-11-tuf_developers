@@ -170,7 +170,8 @@ textarea {
 	text-align: center;
 }
 
-.submit-comment button {
+.submit-comment button,
+.submit-contact input {
 	background-color: #04aa6d;
 	color: white;
 	border: none;
