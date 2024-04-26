@@ -28,7 +28,8 @@ h2 {
 .works,
 .hobbies,
 .gallery,
-.contact-me {
+.contact-me,
+.comment-form {
     background-color: #dddddd97;
     margin: 10px;
     padding: 40px;
@@ -110,10 +111,6 @@ textarea {
     display: flex;
     align-items: baseline;
 }
-  
-.submit-contact {
-    margin-top: 10px;
-}
 
 .submit-contact {
     color: white;
@@ -121,9 +118,11 @@ textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
-input[type=submit] {
+input[type=submit],
+button[type=submit]  {
     background-color: #04AA6D;
     border: none;
     color: white;
@@ -133,6 +132,14 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.goals{
+    background-color: #dddddd97;
+    margin: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
 
 @media (max-width: 426px) {
     img {
@@ -140,7 +147,8 @@ input[type=submit] {
       height: 100%;
     }
   
-    .container {
+    .container
+    .contact-container {
       display: flex;
       flex-direction: column;
     }
@@ -152,4 +160,72 @@ input[type=submit] {
       height: 100%;
     }
   }
+ 
+  #button:hover {
+    color: #2fe578; 
+}
+
+#button::before {
+    content: "\272F";
+    color: #ff69b4; 
+    margin-right: 5px;
+}
+
+.comment-container {
+    display: grid;
+    gap: 10px;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+label {
+    font-weight: bold;
+}
   
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2f9136;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.submit-comment {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=submit],
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.comment-container {
+    display: grid;
+    gap: 10px;
+    background-color: #5ad36486;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
