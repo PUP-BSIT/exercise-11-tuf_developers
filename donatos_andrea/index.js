@@ -10,6 +10,6 @@ function commentForm() {
     if (comment.value.length > 0) {
         document.getElementById("button").disabled = false;
     } else {
-        document.getElementById("butoon").disabled = true;
+        document.getElementById("button").disabled = true;
     }
 } 
