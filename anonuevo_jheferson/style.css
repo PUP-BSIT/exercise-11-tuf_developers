@@ -122,6 +122,14 @@ img:hover {
   max-width: 800px;
 }
 
+.form-name {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
 .form-comment {
   width: 100%;
   padding: 8px;
@@ -134,7 +142,17 @@ img:hover {
   font-weight: bold;
 }
 
-.comment-button {
+.comment-button:disabled {
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.comment-button:enabled {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -143,10 +161,6 @@ img:hover {
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
-
-/* .comment-button:hover {
-  background-color: #0056b3;
-} */
 
 .title {
   text-align: center;
