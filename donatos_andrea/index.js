@@ -1,15 +1,11 @@
 function commentForm() {
+    let comment_button = document.getElementById("comment_button");
     let name = document.getElementById("member_name");
-    if (name.value.length > 0) {
-        document.getElementById("button").disabled = false;
-    } else {
-        document.getElementById("button").disabled = true;
-    }
+    let comment = document.getElementById("comment_area");
 
-    let comment = document.getElementById("comment");
-    if (comment.value.length > 0) {
-        document.getElementById("button").disabled = false;
+    if (name.value.length > 0 && comment.value.length > 0) {
+        comment_button.disabled = false;
     } else {
-        document.getElementById("button").disabled = true;
+        comment_button.disabled = true;
     }
 } 
