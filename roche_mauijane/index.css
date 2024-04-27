@@ -80,6 +80,7 @@ body {
 }
 
 .goals-container ul {
+	font-size: 15px;
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #615454, 0 0 1px #ffffff;
 	display: flex;
