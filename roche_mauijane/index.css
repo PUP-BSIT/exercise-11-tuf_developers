@@ -89,19 +89,6 @@ body {
 	margin-top: 20px;
 }
 
-.comment-container {
-	margin: 80px;
-	border: solid 2px #fe17c1;
-	padding: 20px;
-	border: 3px solid #fe17c1;
-	color: white;
-	padding: 30px;
-	max-width: 600px;
-	margin: 0 auto;
-	display: grid;
-	gap: 10px;
-}
-
 .comment-section {
 	color: white;
 	display: flex;
@@ -129,7 +116,7 @@ body {
 
 .name,
 .comment {
-	width: 100%;
+	width: 95%;
 	padding: 10px;
 	border: 1px solid #ffea30;
 	border-radius: 5px;
