@@ -108,15 +108,7 @@ h2 {
     flex-direction: column; 
     margin: auto;
     width: fit-content;
-    /* align-items: baseline; */
     align-items: stretch;
-  }
-
- 
-
-  .testimonial-container {
-    display: flex;
-    flex-direction: column;
   }
 
   .works-container > ol {
