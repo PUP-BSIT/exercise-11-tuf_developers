@@ -90,6 +90,8 @@ body {
 }
 
 .comment-section {
+	text-align: center;
+	font-size: 13px;
 	color: white;
 	display: flex;
 	flex-wrap: wrap;
