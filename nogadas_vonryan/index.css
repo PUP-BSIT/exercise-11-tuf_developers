@@ -183,6 +183,10 @@ button {
 	color: #a7a7a7;
 }
 
+.comment-form button:enabled {
+	cursor: pointer;
+}
+
 .my-thoughts p {
 	padding: 1rem;
 }
