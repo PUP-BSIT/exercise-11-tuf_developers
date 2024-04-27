@@ -9,5 +9,3 @@ function validateComment() {
 		comment_button.disabled = true;
 	}
 }
-
-validateComment();
