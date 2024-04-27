@@ -115,7 +115,9 @@ img:hover {
 	text-align: center;
 }
 
-.add-comment {
+.add-comment form {
+	display: flex;
+	flex-direction: column;
 	gap: 10px;
 }
 
