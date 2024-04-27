@@ -13,4 +13,3 @@ function validateComment() {
 
 document.getElementById("name").addEventListener("input", validateComment);
 document.getElementById("comment").addEventListener("input", validateComment);
-validateComment();

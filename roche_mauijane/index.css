@@ -141,12 +141,11 @@ body {
   border: 1px solid #ffea30;
   color: #ffffff;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
-.comment-button {
+.comment-button:enabled {
   padding: 10px 20px;
   background-color: #fe17c1;
   border: 1px solid #ffea30;
